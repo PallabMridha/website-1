@@ -64,32 +64,372 @@ text-transform: uppercase;
 
 
 
-
-
-
-
-
-.section2{
+.pic img{
+    width: 650px;
+}
+.sec2{
     display: flex;
 }
-.section2 img{
+.text{
+    padding: 100px 30px 0;
+}
+.text h3{
+font-size: 30px;
+padding-bottom: 20px;
+}
+.text p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #606060;
+}
+
+
+
+
+
+
+
+
+
+.section3{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.row1{
+    text-align: center;
+}
+.row1 p{
+    color: white;
+}
+.row1 h1{
+    padding-bottom: 20px;
+    color: white;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+}
+.row2-col1{
+    background: white;
+    width: 11%;
+    padding: 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+}
+.row2-col1 i{
+    font-size: 25px;
+   padding: 20px 0;
+}
+.row2-col1 p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.row2-col1:hover{
+    background-color:#e4b855;
+    color: #e8e8e8
+}
+
+
+
+
+
+
+.who{
+    text-align: center;
+    padding: 40px 0;
+}
+.who p{
+    color: #606060;
+    font-size: 16px;
+}
+.sec4{
+    padding: 100px;
+    position: relative;
+}
+.sec4-row1{
+    display: flex;
+    justify-content: space-between;
+}
+.sec4-row2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec4-row2 p{
+    padding: 20px 0;
+    color: #606060;
+}
+.sec4-col4{
+    padding: 150px 0 0 75px;
+}
+.sec4-col1{
+    padding: 90px 70px 90px 0;
+}
+.sec4-col4 p{
+    font-size: 20px;
+}
+.sec4-col1 p{
+    padding: 20px 0;
+    color: #606060;
+    font-size: 20px;
+}
+.sec4-col1 a{
+    text-decoration: none;
+    color: rgba(216, 216, 29, 0.97);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.sec4-col4 a{
+    text-decoration: none;
+    color: rgba(216, 216, 29, 0.97);
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.icon {
+    display: flex;
+}
+.icon i{
+    color:rgba(216, 216, 29, 0.97); ;
+    padding: 6px 0 0 5px;
+}
+.icon:hover a{
+    color: #000;
+    transition-duration: 0.8s;
+}
+.icon:hover i{
+    color: #000;
+    transition-duration: 0.8s;
+}
+.bg{
+    background-color: rgb(238, 246, 13);
+    width: 225px;
+    border:15px solid white;
+    height: 225px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.bg h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+.sec6{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec6-col1{
+    background: url(../image/sermons-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 650px;
     height: 450px;
 }
-.col2 {
-    padding: 120px 20px;
+.overla{
+    background: rgba(0, 0, 0, 0.8);
+    width: 650px;
+    height: 291px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+   
 }
-.col2 p{
+.ic{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.sec6-text{
+    padding: 40px 20px;
+    color: white;
+    line-height: 37px;
+}
+.sec6-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(173, 173, 39);
+    text-transform: capitalize;
+}
+.ic i{
+    padding-top: 15px;
+    font-size: 20px;
+    padding: 20px;
+}
+.icon i{
+    padding-top: 12px;
+}
+.sec6-col2{
+    background: url(../image/sermons-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 450px;
+}
+.ove{
+    background: rgba(0, 0, 0, 0.8);
+    width: 650px;
+    height: 291px;
+    position: absolute;
+    top: 35%;
+}
+.sec6-col2-text{
+    padding: 40px 20px;
+    color: white;
+    line-height: 37px;
+}
+.it{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.sec6-col2-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(173, 173, 39);
+    text-transform: capitalize;
+}
+.it i{
+    padding-top: 15px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+.sec7{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px ;
+}
+.col2-icon{
+    display: flex;
+}
+.con{
+    display: flex;
+}
+.one{
+    display: flex;
+}
+.ho{
+    color: rgb(199, 199, 35);
+    padding-right: 10px;
+    font-size: 20px;
+}
+.on{
+    font-size: 20px;
+    color: #606060;
+}
+.ne{
+    color: rgb(199, 199, 35);
+    padding: 0 15px;
+    font-size: 20px; 
+}
+.en{
+    font-size: 20px;
+    color: #606060;
+}
+.hed p{
     padding: 20px 0;
-    font-size: 19.8px;
+}
+.hed h1{
+   padding-top: 10px;
+}
+.hed a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 7px;
+    color: rgb(180, 180, 43);
+}
+.sec7-col2{
+    padding: 90px 25px;
+}
+
+
+
+
+
+
+
+.sec9{
+    background: url(../image/pastor-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sec9-overly{
+   background-color: rgba(0, 0, 0, 0.7);
+   height: 500px;
+}
+.sec9-text{
+    text-align: center;
+    color: white;
+    border: #e8e8e8 solid 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    
+}
+.sec9-text h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.sec9-text p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.sec11-col1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.sec11-col1{
+    text-align: center;
+}
+ .sec11{
+    display: flex;
+    justify-content: space-between;
+ }
+ .sec11 h3{
+    padding: 30px 0;
     color: #606060;
-    font-family:"Source Sans Pro", sans-serif;
-}
-.col2 p{
+    font-size: 20px;
+ }
+ .sec11 p{
     color: #606060;
-    font-family:"Source Sans Pro", sans-serif;
-    font-size: 16.2px;
-}
-.col2 h1{
-    color:#000000 ;
-    font-family: "Playfair Display", serif;
-}
+    font-size: 20px;
+ }
